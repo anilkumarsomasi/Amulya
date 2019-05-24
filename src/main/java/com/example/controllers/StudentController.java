@@ -23,11 +23,6 @@ public class StudentController {
 	@Autowired
 	StudentService studentService;
 	
-	@PostMapping("/saveStudent1")
-	public Student saveStudent1(@RequestBody Student student) {
-		return studentService.saveStudent(student);
-	}
-	
 	
 	@PostMapping("/saveStudent")
 	public Student saveStudent(@RequestBody Student student) {
