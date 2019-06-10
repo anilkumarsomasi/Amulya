@@ -6,8 +6,11 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
+
 public class Student {
 	
+		private int id;
+
 	@Id
 	@GeneratedValue
 	@Column(name="studentid")
