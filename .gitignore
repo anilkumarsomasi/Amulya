@@ -28,3 +28,4 @@ HELP.md
 ### VS Code ###
 .vscode/
 src/main/java/com/example/beans/Student.java
+src/main/resources/application.yml
