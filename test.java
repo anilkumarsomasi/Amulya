@@ -15,3 +15,9 @@ class Explorer{
 }
 
 
+class Explorer{
+
+    main
+}
+
+
